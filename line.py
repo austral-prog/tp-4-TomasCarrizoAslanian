@@ -17,8 +17,8 @@ def line():
     Y2 = coef_a * coef_X2 + coef_b
 
     print(f"Dados los siguientes puntos:")
-    print(f"\tP1({coef_X1}, {Y1})")
-    print(f"\tP2({coef_X2}, {Y2})")
+    print(f"\tP1 ({coef_X1}, {Y1})")
+    print(f"\tP2 ({coef_X2}, {Y2})")
     print()
     distancia = math.sqrt((coef_X2 - coef_X1)**2 + (Y2 - Y1)**2)
     print(f"La distancia entre ellos es: {distancia}")
